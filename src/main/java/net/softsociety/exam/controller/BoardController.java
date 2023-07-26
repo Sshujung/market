@@ -26,14 +26,5 @@ import net.softsociety.exam.service.BoardService;
 @Controller
 public class BoardController {
 	
-	@GetMapping("board")
-	public String board() {
-		return "board/board";
-	}
-	
-	@GetMapping("search")
-	public String search() {
-		return "board/search";
-	}
-	
-}	
+
+}

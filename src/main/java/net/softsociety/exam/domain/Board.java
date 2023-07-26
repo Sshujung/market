@@ -9,12 +9,4 @@ import lombok.NoArgsConstructor;
  */
 public class Board {
 	
-	int boardnum;
-	String memberid;
-	String title;
-	String contents;
-	String inputdate;
-	String category;
-	String soldout;
-	String buyerid;
 }

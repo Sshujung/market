@@ -19,9 +19,5 @@ import net.softsociety.exam.service.MemberService;
 @Controller
 public class MemberController {
 	
-	@GetMapping("login")
-	public String login() {
-		return "loginForm";
-	}
-	
+
 }
