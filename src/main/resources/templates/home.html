@@ -10,20 +10,11 @@
 <body>
 	<h1>[ 중고 거래 사이트 ]</h1>
 	<ul>
-		<!-- 로그인하지 않은 경우 -->
-		
 		<li><a th:href="@{/member/join}">회원가입</a></li>
 		<li><a th:href="@{/member/login}">로그인</a></li>
-		
-		
-		<!-- 로그인 한 경우 -->
-		
-		<li><a th:href="@{/member/login}">로그아웃</a></li>
-		
-		
-		<li><a th:href="@{/member/board}">판매정보 게시판</a></li>
-		<li><a th:href="@{/member/select}">판매상품 검색</a></li>
-		
+		<li><a th:href="@{/board/board}">판매정보 게시판</a></li>
+		<li><a th:href="@{/board/search}">판매정보 검색</a></li>
+		<!-- 이곳에 추가하여 작성하세요. -->
 	</ul>
 
 </body>

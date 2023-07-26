@@ -7,8 +7,8 @@ import lombok.NoArgsConstructor;
 /**
  * 게시글 정보
  */
-public class Board
-{
+public class Board {
+	
 	int boardnum;
 	String memberid;
 	String title;
